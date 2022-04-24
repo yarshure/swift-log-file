@@ -8,6 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "FileLogging",
+            type: .dynamic,
             targets: ["FileLogging"]),
     ],
     dependencies: [
